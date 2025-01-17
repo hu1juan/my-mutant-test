@@ -16,6 +16,7 @@ const menus = [
   "CHOCOLATES",
   "MASTER CLASSES",
 ];
+
 export default function Landing() {
   const landingStyle = {
     backgroundImage: `url(${banner})`,

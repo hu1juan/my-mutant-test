@@ -6,6 +6,7 @@ import FeaturedCakes from "./components/featured-cakes";
 import AboutMe from "./components/about-me";
 import CakeList from "./components/cake-list";
 import Landing from "./components/landing";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FeaturedCakes />
       <AboutMe />
       <CakeList />
+      <Footer />
     </>
   );
 }
