@@ -1,6 +1,12 @@
 import React from "react";
 import banner from "../assets/img/banner.jpg";
 import logo from "../assets/logo/logo.svg";
+import {
+  FaSearch,
+  FaRegUser,
+  FaShoppingCart,
+  FaAngleDown,
+} from "react-icons/fa";
 
 const menus = [
   "SIGNATURE CAKE",
@@ -29,17 +35,23 @@ export default function Landing() {
         </div>
         <nav>
           {menus.map((menu, ind) => (
-            <a href="" target="_blank" onClick={goTo}>
+            <a key={ind} href="" target="_blank" onClick={goTo}>
               {menu}
             </a>
           ))}
         </nav>
         <div className="icons">
-          <span>icon1</span>
-          <span>icon2</span>
-          <span>icon3</span>
+          <FaSearch />
+          <FaRegUser />
+          <FaShoppingCart />
         </div>
       </header>
+      <div className="banner-content">
+        <div>
+          <p>Passion Craft</p>
+          <button>ORDER NOW</button>
+        </div>
+      </div>
     </section>
   );
 }

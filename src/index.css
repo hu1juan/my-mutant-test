@@ -29,7 +29,11 @@
   font-weight: normal;
 }
 
-body {
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -50,30 +54,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/** my css **/
-/* h1 {
-  font-family: "BROWNSUNFLOWER";
-}
-h2 {
-  font-family: "CorporateSLightRegular";
-}
-h3 {
-  font-family: "CromlinDEMORegular";
-}
-h4 {
-  font-family: "RRollieRegular";
-}
-h5 {
-  font-family: "SofiaProRegCond";
-} */
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 36px !important;
-  font-weight: normal;
-} */

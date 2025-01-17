@@ -46,7 +46,7 @@ export default function CakeList() {
   return (
     <section id="cakeList" className="cake-list">
       {cakeList.map((cake, ind) => (
-        <img src={cake.imgSrc} alt={cake.desc} />
+        <img key={ind} src={cake.imgSrc} alt={cake.desc} />
       ))}
     </section>
   );
