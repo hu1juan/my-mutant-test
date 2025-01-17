@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "BROWNSUNFLOWER";
+  src: local("BROWNSUNFLOWER"),
+    url("./assets/fonts/BROWNSUNFLOWER.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CorporateSLightRegular";
+  src: local("CorporateSLightRegular"),
+    url("./assets/fonts/CorporateSLightRegular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CromlinDEMORegular";
+  src: local("CromlinDEMORegular"),
+    url("./assets/fonts/CromlinDEMORegular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "RRollieRegular";
+  src: local("RRollieRegular"),
+    url("./assets/fonts/RRollieRegular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SofiaProRegCond";
+  src: local("SofiaProRegCond"),
+    url("./assets/fonts/SofiaProRegCond.otf") format("opentype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+:root {
+  font-family: "CorporateSLightRegular", Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/** my css **/
+/* h1 {
+  font-family: "BROWNSUNFLOWER";
+}
+h2 {
+  font-family: "CorporateSLightRegular";
+}
+h3 {
+  font-family: "CromlinDEMORegular";
+}
+h4 {
+  font-family: "RRollieRegular";
+}
+h5 {
+  font-family: "SofiaProRegCond";
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px !important;
+  font-weight: normal;
+} */
